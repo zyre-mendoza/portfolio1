@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zyre Mendoza</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+    <link rel="shortcut icon" href="/tab-icon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,10 +30,19 @@
 
     <!-- Header -->
 
-    <header id="navbar" class="navbar">
+ <header id="navbar" class="navbar">
       <div id=sticky-header class="section-container">
         <div data-tilt data-tilt-scale="1.1" class="logo" id="brand"><a href="index.html">Z</a></div>
-          </div>
+      </div>
+
+      <div class="dropdown">
+        <a class="nav-links" href="#about">About</a>
+        <a class="nav-links" href="#">Services</a>
+        <a class="nav-links" href="#proj">Projects</a>
+        <a class="nav-links" href="#contact">Contact</a>
+
+        <div class="close">x</div>
+      </div>
      </header>
 
     
@@ -52,7 +61,7 @@
                 <a href="https://www.facebook.com/zyre.pogi"><i class=" fa-brands fa-facebook-f"></i></a>
               </div>
               <div id="landing-page-button" data-tilt data-tilt-scale="1.1" data-tilt-speed="300"data-tilt-max="40"data-tilt-glare="300" class="textAnimation button textAnimation">
-                <a href="#">Projects</a>
+                <a href="#proj">Projects</a>
               </div>
           </div>
       </section>
@@ -68,7 +77,7 @@
    </div>
 
       <!-- second page (about me ) -->
-        <div  data-aos="fade-up" data-aos-offset="200"
+        <div id="about" data-aos="fade-up" data-aos-offset="200"
           data-aos-delay="50"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -89,7 +98,7 @@
               <p>I also love <b>music</b> and <b>online games.</b> I can play the <b>piano,</b> <b>guitar,</b> and <b>ukulele!</b> For me, listening to music is a way to get my <b>creative juices</b> flowing. When it comes to gaming, I always like to play with my <b>friends</b> <b>competitively.</b> Because of gaming, I developed my <b>competitiveness</b> and <b>communication skills.</b>
              </p>
               <div id="about-button" data-tilt data-tilt-scale="1.1"data-tilt-glare="300"  data-tilt-speed="300" data-tilt-max="40" class="button">
-                <a id="resume-dl" href="#">Resume</a> &nbsp;
+                <a id="resume-dl" href="/Resume-Zyre-Mendoza.pdf" download>Resume</a> &nbsp;
                 <i class="fa-solid fa-download"></i>
               </div>
               </div>
@@ -102,7 +111,7 @@
         
         <!-- third page (projects) -->
 
-        <div class="project-container">
+        <div id="proj" class="project-container">
           <section id="project-section"class="section-container">
             <div class="project-title">
               <h1>Projects</h1>  
@@ -165,7 +174,7 @@
       </section>
  
       <!-- contact section -->
-      <div class="contact-container">
+      <div id="contact" class="contact-container">
         <img src="editeedliquid henad 1.png" alt="">
         <section class="section-container">
             <div data-aos="fade-left"
@@ -173,7 +182,7 @@
             data-aos-easing="ease-in-sine" class="contact-content">
               <h1>Get In Touch</h1>
               <p>I'm currently looking for any new opportunities, my inbox is always open. Whether you have a job offer, question or just want to say hi, I’ll try my best to get back to you asap!</p>
-              <div data-tilt data-tilt-scale="1.1" data-tilt-speed="300"data-tilt-max="40"data-tilt-glare="300" class="contact-button button"><a href="#">Say Hello</a></div>
+              <div data-tilt data-tilt-scale="1.1" data-tilt-speed="300"data-tilt-max="40"data-tilt-glare="300" class="contact-button button"><a href="mailto:zyreiverzonmendoza@gmail.com">Say Hello</a></div>
             </div>
         </section>
       </div>
@@ -189,10 +198,10 @@
 <!-- social media icons fixed left -->
 <div class="textAnimation fixed-socmed">
   <div class="socmed-list">
-    <a href="https://github.com/Des1re-Z"><i class="socmed-item fa-brands fa-github"></i></a>
-    <a href="https://codepen.io/your-work/"><i class="socmed-item fa-brands fa-codepen"></i></a>
-    <a href="https://www.linkedin.com/in/zyre-mendoza-4a2718211/"><i class="socmed-item fa-brands fa-linkedin-in"></i></a>
-    <a href="https://www.facebook.com/zyre.pogi"><i class="socmed-item fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="socmed-item fa-brands fa-github"></i></a>
+    <a href="#"><i class="socmed-item fa-brands fa-codepen"></i></a>
+    <a href="#"><i class="socmed-item fa-brands fa-linkedin-in"></i></a>
+    <a href="#"><i class="socmed-item fa-brands fa-facebook-f"></i></a>
   </div>
 </div>
 
