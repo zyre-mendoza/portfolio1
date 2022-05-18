@@ -22,4 +22,12 @@ window.addEventListener('scroll',function(){
 
 
 
- 
+$('.logo').hover (function(){
+  $('.dropdown').stop(500).fadeIn(800);
+}
+);
+
+
+$(".close").click(function(){
+  $('.dropdown').fadeOut(500);
+});
